@@ -1,11 +1,11 @@
 import os
 
 # Telegram Config
-API_ID = int(os.environ.get("API_ID", "123456"))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
+API_ID = int(os.environ.get("API_ID", "32546882"))
+API_HASH = os.environ.get("API_HASH", "81254ed5acbeb5839a3493a995994864")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8507577912:AAE8HDhJSlaumOr4ftPF6oWuaEV7D2q-OHI")
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "Helpto_allbot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Semextract_bot")
 
 # Channels (NO SPACE before -100)
 LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1003700223671"))
@@ -19,4 +19,4 @@ MONGO_URL = os.environ.get(
 )
 
 # Other optional configs
-OWNER_ID = int(os.environ.get("OWNER_ID", "123456789"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1806771298"))
