@@ -15,7 +15,7 @@ PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003700223671"))
 # MongoDB (READY TO USE)
 MONGO_URL = os.environ.get(
     "MONGO_URL",
-    "mongodb+srv://semuser:sempass123@cluster0.mongodb.net/sem_extract?retryWrites=true&w=majority"
+    "mongodb+srv://semuser:sempass123@cluster0.mongodb.net/sem_extract?retryWrites=true&w=majority&appName=Cluster0"
 )
 
 # Other optional configs
